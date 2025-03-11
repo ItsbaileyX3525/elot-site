@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let currentElots = parseInt(window.localStorage.getItem("elots"), 10) || 0;
 
     elotButton.addEventListener("click", function() {
-        currentElots += 1;
+        currentElots++;
         elotText.innerText = `Elots collected: ${currentElots}`;
         window.localStorage.setItem("elots", currentElots);
     });
