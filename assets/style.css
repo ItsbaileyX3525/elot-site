@@ -1,0 +1,9 @@
+body{
+    background-image: url("elots/elot12_cute.png");
+    color: white;
+    text-shadow: 
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
+}
